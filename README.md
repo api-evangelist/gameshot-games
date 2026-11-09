@@ -1,4 +1,4 @@
-# gameshot-games
+# Gameshot
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-gameshot-games is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://gameshot.games/
+Gameshot provides official game industry news, aggregating specialist press, leak communities, and trade information. The platform delivers daily summaries that are scored, grouped, and turned into concise updates for gamers, developers, and industry professionals. It aims to be the go‑to source for timely, reliable gaming news and insights, supporting the community with curated content and analytics.
+
+**Areas:** Gaming · News · Media · Community · Aggregator
+
+## Gameshot on APIs.io
+
+Everything profiled for Gameshot is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gameshot-games/](https://apis.io/providers/gameshot-games/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Gameshot Agent API](https://apis.io/apis/gameshot-games/gameshot-games-agent-api/) — The Agent API from Gameshot — 11 operation(s) for agent.
+- [Gameshot Dailies API](https://apis.io/apis/gameshot-games/gameshot-games-dailies-api/) — The Dailies API from Gameshot — 3 operation(s) for dailies.
+- [Gameshot Hot Topics API](https://apis.io/apis/gameshot-games/gameshot-games-hot-topics-api/) — The Hot Topics API from Gameshot — 1 operation(s) for hot topics.
+- [Gameshot Items API](https://apis.io/apis/gameshot-games/gameshot-games-items-api/) — The Items API from Gameshot — 1 operation(s) for items.
+- [Gameshot Monthlies API](https://apis.io/apis/gameshot-games/gameshot-games-monthlies-api/) — The Monthlies API from Gameshot — 3 operation(s) for monthlies.
+- [Gameshot Selected API](https://apis.io/apis/gameshot-games/gameshot-games-selected-api/) — The Selected API from Gameshot — 2 operation(s) for selected.
+- [Gameshot Stories API](https://apis.io/apis/gameshot-games/gameshot-games-stories-api/) — The Stories API from Gameshot — 1 operation(s) for stories.
+- [Gameshot Weeklies API](https://apis.io/apis/gameshot-games/gameshot-games-weeklies-api/) — The Weeklies API from Gameshot — 3 operation(s) for weeklies.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Gameshot Games Agentic Access](https://apis.io/agentic-access/gameshot-games/gameshot-games-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DailiesResponse](https://apis.io/schemas/gameshot-games/gameshot-games-dailies-response/)
+- [ItemsResponse](https://apis.io/schemas/gameshot-games/gameshot-games-items-response/)
+- [MonthliesResponse](https://apis.io/schemas/gameshot-games/gameshot-games-monthlies-response/)
+- [SelectedChanges](https://apis.io/schemas/gameshot-games/gameshot-games-selected-changes/)
+- [SelectedSnapshot](https://apis.io/schemas/gameshot-games/gameshot-games-selected-snapshot/)
+- [WeekliesResponse](https://apis.io/schemas/gameshot-games/gameshot-games-weeklies-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Gameshot Games Context](https://apis.io/jsonld/gameshot-games/gameshot-games-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Gameshot API Rules](https://apis.io/rules/gameshot-games/gameshot-games-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gameshot Games Domain Security](https://apis.io/security/gameshot-games/gameshot-games-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://gameshot.games/)
+- [API reference](https://gameshot.games/llms.txt)
+- [Changelog](https://gameshot.games/changelog)
+- [Terms of service](https://gameshot.games/terms)
+- [Privacy policy](https://gameshot.games/privacy)
+
+## API Evangelist rating
+
+**Kin Score 41.1** — developing · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 56.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 20.7 |
+| Access clarity | 21.1 |
+
+**Agent readiness 38.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gameshot-games/](https://apis.io/providers/gameshot-games/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Gameshot: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gameshot-games/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
